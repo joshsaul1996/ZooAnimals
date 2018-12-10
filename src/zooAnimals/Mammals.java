@@ -15,7 +15,10 @@ public abstract class Mammals extends Animals{
 			super(vName, vAge, vColour, vWeight, vGender);
 			this.species = vSpecies;
 		}
-
+	
+	public Mammals(String vSpecies, String vName, int vAge, int vWeight, String vGender) {
+		this(vSpecies, vName, vAge, "Black", vWeight, vGender );
+	}
 
 	
 	////////////////////////Methods////////////////////////////

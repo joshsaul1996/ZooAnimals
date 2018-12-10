@@ -17,10 +17,15 @@ public abstract class Bird extends Animals{
 		this.wingspan = vWingspan;
 	}
 
+	public Bird(String vSpecies, int vWingspan, String vName, int vAge, int vWeight, String vGender) {
+		this(vSpecies, vWingspan, vName, vAge, "Black", vWeight, vGender );
+	}
+	
 	
 	
 	////////////////////////Methods////////////////////////////
 	
+
 	public String getSpecies() {
 		return species;
 	}
